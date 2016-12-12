@@ -1,0 +1,18 @@
+
+POST:{"encrypt":"MXJeMfjEegb4klfyifBZnI6hEJh8hKEYvHtQPNZLPB0+2jiReJp2qzaksH+K+7j5M5yilbt6QCSYHotXcug/tf1IxnGXsdZ/iZrbEPvrlkwlZHH3l7D9YskbegNZFL1G3FCR/4+/ql2FmFJzjMX6PL4wdYiOevxUmrS77NTidHI/yzqcZVhwoFJzhHDwQ+/tAh5EfrFOH/s3KTMNIR0dCw=="}
+
+GET:3a18353d28bfd02339c75e530654d2ebc98c4b95_ 1479352954467_ bGvMlEtW
+
+Random:YRUCqWsA
+
+SEND:{
+    "msg_signature":"3a18353d28bfd02339c75e530654d2ebc98c4b95",
+    "timeStamp":"1479352954467",
+    "nonce":"bGvMlEtW",
+    "encrypt":"qiNqlyHePARQga836L1nNicHVSydbeB/uhsfmfM601PRtImiSfw2sfEN5Poa/6bFVvVtspMWFbuG8CAl+zTxbQ=="
+    }
+
+DECRYPT:{"EventType":"check_create_suite_url","Random":"YRUCqWsA","TestSuiteKey":"suite4xxxxxxxxxxxxxxx"}
+
+
+http://www.higdata.com/ding/index.php?signature=3a18353d28bfd02339c75e530654d2ebc98c4b95&timestamp=1479352954467&nonce=bGvMlEtW

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jq.js"></script>
+
+</head>
+<body>
+
+<script>
+    $.ajax({
+        url:'http://www.higdata.com/ding/server.php',
+        timeout:0,
+        success:function(data)
+        {
+            console.log(data);
+        }
+    });
+</script>
+
+</body>
+</html>

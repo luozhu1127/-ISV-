@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+ background-image:url(../images/bg.jpg);
+ background-size:100%;
+ color:#eee;
+}
+.chart_h{
+	margin:auto;
+	margin-top:60px;
+	background: rgba(46,139,87,0.2);
+	border:3px solid #eee;
+}
+.tou{
+	font-size: 36px;
+}
+#tolerate{
+	background-color:darkgray;
+	border: 1px solid darkgray ;
+}
+td,th{
+	text-align: center;
+	line-height:60px;
+}
+.page_box{
+	width:620px;
+	margin:auto;
+}
+.page{
+	margin-left:0px;
+}
+.page li{
+	margin-top:30px;
+	float: left;
+	margin-left: 15px;
+	list-style: none;
+}
+.page a{
+	font-size:14px;
+	display: inline-block;
+	text-decoration: none;
+	line-height:30px;
+	color:cornflowerblue;
+	border: 1px solid #eee;
+	height:30px;
+	width: 50px;
+	background-color: #eee;
+	text-align: center;
+	border-radius:3px 3px 3px 3px;
+}
+td a{
+	text-decoration:underline;
+	color:#F90;
+	cursor:pointer;
+}
+.chart_h{ margin-top: 5%;}
+.select_all{ width: 65%; height: 40px; margin:4% auto 20px auto; }
+.select_box{ width: 200px; height: 40px; float:right; background: rgba(0,0,0,0.3); border-radius: 3px; position: relative; }
+.select_input{ width: 140px; height: 40px; border: none; background: none; color: white; padding-left: 10px; float: left; outline: none; }/*输入框*/
+.ranking{position: absolute; width: 200px; left: 0; top:40px; list-style: none; padding: 0;}
+.ranking li{ width: 200px; height: 30px; background: rgba(0,0,0,0.3); font-size:14px; padding-left:10px; color: #ccc; }
+
+.select_btn{ width: 40px; height: 40px; float: right; background: url("images/search-white.png") no-repeat center right 10px ; border-radius: 3px; outline: none; border: none;  cursor: pointer; }/*确定按钮*/
+.select_btn:hover{ border: 1px solid #ccc;}
